@@ -1,0 +1,15 @@
+.name{
+    float: left;
+    width: 200px;
+}
+.location{
+    float: left;
+    width: 210px;
+}
+.number{
+    float: left;
+    width: 100px;
+}
+.personContainer{
+    clear: both;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!--STYLES-->
+    <link rel="stylesheet" href="/assets/styles/style.css"/>
+    <link rel="stylesheet" href="/vendors/bootstrap.min.css"/>
+    <!--SCRIPTS-->
+    <script type="text/javascript" src="/vendors/angular.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/app.min.js"></script>
+</head>
+<body>
+    <div class=”container”>
+        <h1>ZETA</h1>
+        <div ng-controller="PeopleController">
+            <div ng-repeat="person in people">
+                <div class="personContainer">
+                <p class="name">{{person.name}}</p>
+                <p class="location">{{person.location}}</p>
+                <p class="number">{{person.favorite_number}}</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>
